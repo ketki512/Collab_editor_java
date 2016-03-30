@@ -1,0 +1,14 @@
+List of Code dependencies:
+
+
+Our project does not consist of a dataset or configuration files.
+
+Libraries used:
+
+1.javax.swing
+2.javax.swing.event
+3.java.rmi
+4.java .net
+4.java.util
+6.java.awt
+7.java.io

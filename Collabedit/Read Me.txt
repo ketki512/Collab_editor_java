@@ -1,0 +1,26 @@
+Collaborated Text Editor.
+Project by:
+Shikha Soni
+Ketki Trimukhe 
+
+Since the project runs on RMI. 
+I. To run the application, the registry needs to be started first with a port number.
+Syntax to start the registry:
+1. On windows: start rmiregistry portnumber
+2. Mac/Linux terminal: rmiregistry portnumber &
+
+II. After starting the registry, the files need to be compiled and executed. 
+Syntax:
+Start the server:
+javac *.java
+java Server portnumber
+
+Start the client with the same portnumber and IP address
+III. Syntax:
+java LoginPage IP Address portnumber
+
+The login page here is the client. More than one client needs to login to check the system.
+After login comes the create window, where the client should create a document with doc name and atleast one user. 
+
+After adding the other user, the shared document will appear on the shared list of the client.
+On opening the document one will get the same text written by the other client.
